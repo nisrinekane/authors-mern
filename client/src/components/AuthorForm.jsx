@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Form = () => {
     //keeps track of what is being typed via useState hook
-    const [name, setName] = useState(" "); 
+    const [name, setName] = useState(""); 
     const navigate = useNavigate();
 
     //handler for when the form is submitted
